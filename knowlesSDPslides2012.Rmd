@@ -1,0 +1,23 @@
+% Overview of the Day
+% Presentation to the SDP Summer Institute for Leadership in Analytics August 6th-8th 2012
+% Jared Knowles, Policy Research Advisor at Wisconsin Department of Public Instruction
+
+
+```{r setuph, include=FALSE}
+# set global chunk options
+opts_chunk$set(fig.path='figure/slides-', cache.path='cache/slides-',fig.width=8,fig.height=6,message=FALSE,error=FALSE,warning=FALSE,echo=TRUE,size='tiny',dev='svg',out.width='600px',out.height='350px')
+source('ggplot2themes.R')
+```
+
+# Opening
+
+
+# Attribution and License
+<p xmlns:dct="http://purl.org/dc/terms/">
+<a rel="license" href="http://creativecommons.org/publicdomain/mark/1.0/">
+<img src="http://i.creativecommons.org/p/mark/1.0/88x31.png"
+     style="border-style: none;" alt="Public Domain Mark" />
+</a>
+<br />
+This work (<span property="dct:title">Data Analysis in an SEA</span>, by <a href="www.jaredknowles.com" rel="dct:creator"><span property="dct:title">Jared E. Knowles</span></a>), in service of the <a href="http://www.dpi.wi.gov" rel="dct:publisher"><span property="dct:title">Wisconsin Department of Public Instruction</span></a>, is free of known copyright restrictions.
+</p>

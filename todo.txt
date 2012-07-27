@@ -1,0 +1,9 @@
+#####################
+# Project To-Dos ####
+#####################
+
+* Add images from MIS presentation
+* Add data
+* Run inference tree models
+* Figure out how to boost a regression tree and draw it
+* Add DPI, SDP logos
