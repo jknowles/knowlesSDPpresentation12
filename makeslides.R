@@ -3,4 +3,5 @@
 library(knitr)
 knit()
 
-pandoc
+# Makeslides
+system("pandoc -s -S -i -t slidy knowlesSDPslides2012.md -o KnowlesSDPslides2012.html --self-contained")

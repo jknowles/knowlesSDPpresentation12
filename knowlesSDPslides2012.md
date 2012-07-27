@@ -3,23 +3,22 @@
 % Jared Knowles, Policy Research Advisor at Wisconsin Department of Public Instruction
 
 
-```{r setuph, include=FALSE}
-# set global chunk options
-opts_chunk$set(fig.path='figure/slides-', cache.path='cache/slides-',fig.width=8,fig.height=6,message=FALSE,error=FALSE,warning=FALSE,echo=TRUE,size='tiny',dev='svg',out.width='600px',out.height='350px')
-source('ggplot2themes.R')
-load('data/smalldata.rda')
-```
+
+
 
 # Opening
 
-```{r treedata}
-library(partykit)
-mypar<-ctree_control(testtype='Bonferroni',mincriterion=0.99)
-mytree<-ctree(mathSS~race+econ+ell+disab+sch_fay+dist_fay+attday+readSS,
-              data=subset(df,grade==3))
-plot(mytree)
 
+```r
+library(partykit)
+mypar <- ctree_control(testtype = "Bonferroni", mincriterion = 0.99)
+mytree <- ctree(mathSS ~ race + econ + ell + disab + sch_fay + dist_fay + attday + 
+    readSS, data = subset(df, grade == 3))
+plot(mytree)
 ```
+
+<img src="figure/slides-treedata.svg" width="600px" height="350px"  alt="plot of chunk treedata" title="plot of chunk treedata" /> 
+
 
 # Testing Image
 
