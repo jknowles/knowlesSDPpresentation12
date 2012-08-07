@@ -12,6 +12,8 @@
 - Can we produce analyses that are **approachable** to policy makers the public _so that they galvanize change_?
 - Can we do this under time and capacity constraints in a way that is rigorous, valid, and accurate?
 
+<p align="center"><img src="img/dpilogo.png" height="81" width="138"></p>
+
 # Ask Jen
 - Every agency has someone who gets these requests, and that someone is **overworked**
 <p align="center"><img src="img/jen1.jpg" height="612" width="720"></p>
@@ -135,9 +137,37 @@ mytree <- ctree(mathSS ~ race + econ + ell + disab + sch_fay + dist_fay + attday
 plot(mytree)
 ```
 
-<img src="figure/slides-treedata.svg" width="600px" height="350px"  alt="plot of chunk treedata" title="plot of chunk treedata" /> 
+<img src="figure/slides-treedata.svg" width="900px" height="600px"  alt="plot of chunk treedata" title="plot of chunk treedata" /> 
 
 
+
+# What is an inference tree?
+- An inference tree isa way of dividing data into meaningful groups
+- It is an algorithm that splits data by groups searching for the most meaningful and significant splits among grouping variables
+- This is a way to identify meaningfully large groups with differing performance
+- Useful for exploring policy opportunities
+
+# How can it be used?
+- A little R code
+- A little explanation
+- A good dataset with good variables that are meaningful
+- The good news is most states have all of this!
+
+# This is different than research
+- First, it is using the population data for what it should be used for
+- Second, it's free and easy to implement
+- Third, it's useful for questions policy makers might be eager to know--where should we focus our limited resources?
+
+# How else is Wisconsin using R?
+- Script common processes like AYP and other reports
+- Fit growth models
+- Visualize data for policy makers
+- Analyze all sorts of ad hoc data from different sources, and combine datasets for quick policy questions
+
+# Thoughts
+1. What are some ways inference trees could be used in your agency? 
+2. What types of analyses would be useful across district and state agencies?
+3. Sharing work with common data is something we all have an interest in to understand our work. How can we make this happen?
 
 # Attribution and License
 <p xmlns:dct="http://purl.org/dc/terms/">
