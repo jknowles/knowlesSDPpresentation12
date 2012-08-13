@@ -56,10 +56,13 @@ plot(mytree)
 
 <p align="center"><img src="img/evenFRLmap.gif" height="640" width="550"></p>
 
+- Data publicly available from Wisconsin Information Network for Successful Schools [WINSS](http://data.dpi.state.wi.us/data/GroupEnroll.aspx?GraphFile=GROUPS&SCounty=47&SAthleticConf=45&SCESA=05&OrgLevel=st&Qquad=demographics.aspx&Group=EconDisadv)
 
 # Using Graphics to Tell a Story: Animations
 
 <p align="center"><img src="img/TESTstuplot.gif" height="650" width="860"></p>
+
+- Not actual student data, simulated from Wisconsin DPI records for example purposes.
 
 # R Code
 - This is not all the R code, animations are a **bit** more complicated
@@ -83,6 +86,7 @@ for(i in 1:100){
 
 <p align="center"><img src="img/testaniCUML.gif" height="650" width="860"></p>
 
+- Simulated from ACT and WKCE data at Wisconsin Department of Public Instruction
 
 # This is different than research
 - First, it is using the population data for what it should be used for
